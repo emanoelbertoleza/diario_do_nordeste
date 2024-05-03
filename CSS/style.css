@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #008299;
+    --color-secondary: #fff;
+    --font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.topo__site {
+    background-color: #008299;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo__dn {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+
+.inicio {
+    background-color: #f8f9fa; /* Cor de fundo do início */
+    padding: 50px 0; /* Espaçamento interno do conteúdo */
+    text-align: center; /* Alinhamento do conteúdo ao centro */
+}
+
+.conteudo {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralização do conteúdo na página */
+}
+
+.titulo__conteudo {
+    font-size: 36px; /* Tamanho da fonte do título principal */
+    color: #333333; /* Cor do título principal */
+    margin-bottom: 20px; /* Espaçamento inferior do título principal */
+}
+
+.titulo__conteudo2 {
+    font-size: 24px; /* Tamanho da fonte do subtítulo */
+    color: #666666; /* Cor do subtítulo */
+    margin-bottom: 30px; /* Espaçamento inferior do subtítulo */
+}
+
+.botao__assine__principal {
+    background-color: var(--color-primary); /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    border: none; /* Remover borda do botão */
+    border-radius: 5px; /* Borda arredondada do botão */
+    cursor: pointer; /* Alterar cursor ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Adicionar transição suave */
+}
+
+.botao__assine__principal:hover {
+    background-color: #0056b3; /* Mudança de cor do botão ao passar o mouse */
+}
+
+
+.botao__assine__principal:focus,
+.botao__assine__principal:active {
+    background-color: #0d6efd; /* Mudança de cor quando clicado ou focado */
+    outline: none; /* Remover contorno padrão do navegador */
+}
+
+
+.home__dn {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.home__dn img {
+    width: 100%;
+
+}
+
+.beneficios {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.beneficios__container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px; /* Adiciona preenchimento horizontal */
+}
+
+
+.beneficios h2 {
+    font-size: 24px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.lista_beneficios {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista_beneficios li {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.lista_beneficios li strong {
+    font-weight: bold;
+}
+
+.precos__container {
+    display: flex;
+    justify-content: center; /* Alinha os boxes horizontalmente ao centro */
+    margin-top: 30px; /* Ajuste a margem conforme necessário */
+}
+
+.box__preco {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra para um efeito de elevação */
+}
+
+.box__preco h2 {
+    font-size: 24px;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.beneficios__lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.beneficios__lista li {
+    margin-bottom: 10px;
+}
+
+.botao__assine {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adicionando uma transição suave */
+}
+
+.botao__assine:hover {
+    background-color: #0056b3;
+}
+
+.botao__assine:focus,
+.botao__assine:active {
+    outline: none;
+    background-color: #004080;
+}
+
+.sou-assinante {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sou-assinante p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+}
+
+.botao__login {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao__login:hover {
+    background-color: #0056b3;
+}
+
+.botao__login:focus,
+.botao__login:active {
+    outline: none;
+    background-color: #004080;
+}
+
+.rodape {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape div {
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+}
+
+.rodape a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+ /* Estilos para dispositivos móveis */
+ @media screen and (max-width: 768px) {
+    .inicio {
+        padding: 50px 0;
+    }
+
+    .titulo__conteudo {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .titulo__conteudo2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .botao__assine__principal {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .beneficios {
+        padding: 30px 0;
+    }
+
+    .beneficios h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .precos__container {
+        margin-top: 30px;
+    }
+
+    .box__preco {
+        width: 100%;
+        max-width: none;
+    }
+
+    .price {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .botao__assine {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .rodape {
+        margin-top: 30px;
+    }
+}
